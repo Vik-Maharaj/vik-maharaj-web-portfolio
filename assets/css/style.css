@@ -108,7 +108,7 @@
   
   section {
       padding: 60px;;
-      background-image: url("../images/Light-Website-Background.jpg");
+      /* background-image: url("../images/Light-Website-Background.jpg"); */
     }
   
   .hero {
@@ -154,7 +154,30 @@
   .secondary-border {
       border-color: var(--tertiary-color);
     }
+
+    /* .intro {
+      display:flex;
+    } */
+
+    /* .intro h2 { */
+      /* justify-content: left; */
+      /* margin: 0; */
+      /* text-align: left; */
+      /* width: 100%; */
+    /* } */
   
+    .intro img {
+      width: 30%;
+      height: 30%;
+      display: flex;
+      align-content: center;
+      flex-direction: column;
+      padding: 15px 15px 50px 15px;
+      filter: grayscale(100%);
+      margin: auto;
+    }
+
+
     .intro p {
       margin: 0 auto;
       line-height: 1.7;
@@ -162,7 +185,10 @@
       width: 80%;
       font-size: 20px;
       text-align: center;
+      align-items:flex-end;
     }
+
+    
   
   .skills {
       background: var(--primary-color);
@@ -195,7 +221,7 @@
     }
   
     .skill-text h4 {
-      font-size: 26px;
+      font-size: 30px;
       line-height: 1.5;
       color: var(--secondary-color);
     }
@@ -205,6 +231,7 @@
       display: flex;
       flex-wrap: wrap;
       align-items: center;
+      
     }
   
     .skill-img {
@@ -225,6 +252,10 @@
     .skill-text {
       flex: 12;
     }
+
+    .portfolio {
+      filter: grayscale(100%);
+    }
   
     
     .portfolio-card{
@@ -233,6 +264,7 @@
       min-height: 58%;
       justify-content:center;
       padding: 25px 25px;
+      /* filter: grayscale(100%); */
     }
     
     .card-container{
