@@ -81,7 +81,7 @@
       background-image: url("../images/hero-bg.jpg");
       filter: grayscale(35%);
       width: 100%;
-      padding: 40px 35px;
+      padding: 38px 35px;
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
@@ -91,15 +91,21 @@
         filter: grayscale(0%);
       }
   
-    footer h2 {
+    /* footer h2 {
       color: var(--secondary-color);
-      font-size: 30px;
+      font-size: 20px;
       margin: 0;
-    }
+      width: 100%;
+    } */
   
     footer div {
-      line-height: 1.5;
-      text-align: right;
+      line-height: 1;
+      /* text-align: right; */
+      width: 100%;
+      text-align: center;
+      color: var(--secondary-color);
+      font-size: 18px;
+      margin: 5px;
     }
   
     footer a {
@@ -167,14 +173,18 @@
     /* } */
   
     .intro img {
-      width: 30%;
-      height: 30%;
+      width: 60%;
+      height: 50%;
       display: flex;
       align-content: center;
       flex-direction: column;
-      padding: 15px 15px 50px 15px;
+      padding: 2px 2px 25px 2px;
       filter: grayscale(100%);
       margin: auto;
+    }
+
+    .intro img:hover {
+      filter: grayscale(0%);
     }
 
 
@@ -198,7 +208,7 @@
     .skill {
       margin: 50px auto;
       padding-bottom: 50px;
-      width: 80%;
+      width: 65%;
       display: flex;
       flex-wrap: wrap;
       align-items: center;
@@ -421,6 +431,18 @@
     color: var(--primary-color);
   }
   
+  .contact address img {
+      display: inline-flex;
+      align-items: flex-start;
+      max-height: 45px;
+      max-width: 45px;
+      /* margin: 5px */
+  }
+
+
+  .contact address img:hover {
+    filter:opacity(50%);
+  }
 
 
  /* MEDIA QUERY FOR PORTFOLIO CARDS */
