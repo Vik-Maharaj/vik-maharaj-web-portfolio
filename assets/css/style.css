@@ -156,6 +156,10 @@
   .primary-border {
       border-color: var(--primary-color);
     }
+
+  .seo {
+    color:var(--primary-color);
+  }
     
   .secondary-border {
       border-color: var(--tertiary-color);
