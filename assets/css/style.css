@@ -24,7 +24,7 @@
       position: -webkit-sticky;
       position: sticky;
       top: 0;
-      background-image: url("../images/hero-bg-\(dark\).jpg");
+      background-image: url("../images/hero-bg-dark.jpg");
       /* filter: grayscale(25%); */
       background-size: cover;
       background-position: 80%;
@@ -78,8 +78,8 @@
     }
   
   footer {
-      background-image: url("../images/hero-bg.jpg");
-      filter: grayscale(35%);
+      background-image: url("../images/hero-bg-02.jpg");
+      filter: grayscale(45%);
       width: 100%;
       padding: 38px 35px;
       display: flex;
@@ -118,8 +118,8 @@
     }
   
   .hero {
-      background-image: url("../images/hero-bg.jpg");
-      filter: grayscale(35%);
+      background-image: url("../images/hero-bg-02.jpg");
+      filter: grayscale(45%);
       background-size: cover;
       background-position: 80%;
       display: flex;
@@ -206,7 +206,7 @@
   
   .skills {
       background: var(--primary-color);
-      background-image: url("../images/Dark-Website-Background.jpg");
+      background-image: url("../images/Dark-Website-Background_02.jpg");
     }
   
     .skill {
@@ -359,7 +359,7 @@
    
   
   .contact {
-    background-image: url("../images/Dark-Website-Background.jpg");
+    background-image: url("../images/Dark-Website-Background_02.jpg");
   }
   
   .contact h2 {
