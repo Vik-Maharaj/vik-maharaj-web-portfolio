@@ -70,7 +70,7 @@
       text-shadow: none;
     }
   
-  footer {
+    footer {
       background-image: url("../images/hero-bg-02.jpg");
       filter: grayscale(45%);
       width: 100%;
@@ -81,8 +81,8 @@
     }
 
     footer:hover {
-        filter: grayscale(0%);
-      }
+      filter: grayscale(0%);
+    }
   
     footer div {
       line-height: 1;
@@ -97,11 +97,11 @@
       color: var(--secondary-color);
     }
   
-  section {
+    section {
       padding: 60px;;
     }
   
-  .hero {
+    .hero {
       background-image: url("../images/hero-bg-02.jpg");
       filter: grayscale(45%);
       background-size: cover;
@@ -127,7 +127,7 @@
       }
 
   
-  .section-title {
+    .section-title {
       font-size: 48px;
       color: var(--tertiary-color);
       border-bottom: 3px solid;
@@ -137,20 +137,20 @@
       width: 50%;
     }
     
-  .primary-border {
+    .primary-border {
       border-color: var(--primary-color);
     }
 
-  .h2-name {
+    .h2-name {
     color:var(--primary-color);
-  }
+    }
     
-  .secondary-border {
+    .secondary-border {
       border-color: var(--tertiary-color);
     }
   
     .intro img {
-      width: 60%;
+      width: 70%;
       height: 50%;
       display: flex;
       align-content: center;
@@ -176,7 +176,7 @@
     }
 
     
-  .skills {
+    .skills {
       background: var(--primary-color);
       background-image: url("../images/Dark-Website-Background_02.jpg");
     }
@@ -326,8 +326,6 @@
       word-spacing: 100vw;
     }
     
-    
-   
   
   .contact {
     background-image: url("../images/Dark-Website-Background_02.jpg");
@@ -419,6 +417,7 @@
   }
 
 
+
  /* MEDIA QUERY FOR PORTFOLIO CARDS */
   @media(min-width: 540px){
     .card-container{
@@ -434,9 +433,6 @@
 
 
 
-
-
-  
   
   /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
   @media screen and (max-width: 980px) {
@@ -488,9 +484,6 @@
   
   
   
-  
-  
-  
   /* MEDIA QUERY FOR TABLETS AND SMALLER */
   @media screen and (max-width: 768px) {
     section {
@@ -518,8 +511,6 @@
       flex: 100%;  
     }
   }
-  
-  
   
   
   
