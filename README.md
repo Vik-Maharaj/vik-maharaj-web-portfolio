@@ -2,39 +2,23 @@
 
 ## Description
 
---Describe the objective--
+When applying for web development positions, an employer wants to know about the candidate, and more importantly, wants to see what the candidate has done. So, having an online portfolio is essential.
 
---Describe the purpose--
+Enter the purpose of this project: Since I don’t have one, I need to create a portfolio that I can link to in my resume and future job applications, so that an employer can view from any web browser.  
 
-AS AN employer
-I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
+To accomplish this, the portfolio was created with the following features:
 
---What was done:
+- At the top of the webpage, the page loads with my name and links to sections about me, my skills, my portfolio samples, and how to contact me.
+- Following the section links at the top, there is a recent picture.
+- There is a skills section that highlights some of my skills along with a picture representation of those items.
+- The portfolio page of the website features images of the work samples, and when clicked, takes the user to the deployed websites of those samples.
+- The contact section has external links to my LinkedIn and GitHub profiles, along with an email form for future use.
+- The entire webpage can be viewed on any device, and presents a responsive layout that can adapt to any viewport.
+- The webpage also contains user interactivity that allows certain images to change in color or appearance once the mouse hovers over it.
 
-- task 01
-- task 02
-- task 03
-- task 04
-- task 05
+An online portfolio is never complete, and can be continually updated once new projects are accomplished. But before that can happen, an initial version has to be created, and now with this initial portfolio I have something to promote and build from.
 
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
-
---Desribe the end result
-
-Link to the deployed website: --link here--
+Link to the deployed website: https://vik-maharaj.github.io/vik-maharaj-web-portfolio/
 
 
 ## Installation
@@ -46,20 +30,21 @@ The repo contains an index.html file, and assets folder containing a CSS file sy
 
 Using any dekstop browser, open the above mentioned link to view the webpage.
 
-![Vik Maharaj Website Screenshot](--local link here--)
+![Vik Maharaj Website Screenshot](assets/images/screenshot.png)
 
 
 ## Credits
 
-Source code courtesy of © 2022 Vikaash Maharaj. All Rights Reserved.
+Code snippets courtesy of © 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+
+Other resources include www.w3schools.com and www.stackoverflow.com.
 
 
 ## License
 
 Copyright (c) 2022 Vik Maharaj
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
