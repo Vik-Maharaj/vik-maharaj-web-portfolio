@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #fcaeeb;
-    --secondary-color: #afafaf;
+    --primary-color: #abccf1;
+    --secondary-color: #e2e4ec;
     --tertiary-color: #000000;
   }
   
@@ -135,7 +135,7 @@
       display: flex;
       flex-direction: column;
       padding: 50px 50px;
-      filter: grayscale(100%);
+      filter: grayscale(45%);
     }
 
     .hero:hover {
@@ -183,7 +183,7 @@
       align-content: center;
       flex-direction: column;
       padding: 2px 2px 25px 2px;
-      filter: grayscale(100%);
+      filter: grayscale(65%);
       margin: auto;
     }
 
@@ -292,7 +292,7 @@
     }
     
     p {
-      color: pink;
+      color: var(--primary-color);
     }
     
     .card{
@@ -348,7 +348,7 @@
     }
     
     .card-header{
-      color: rgba(255,255,255,0.9);
+      color: var(--secondary-color);
       font-size: 1.9rem;
       text-shadow: 2px 2px 20px rgba(0,0,0,0.2);
       line-height: 1.4;
