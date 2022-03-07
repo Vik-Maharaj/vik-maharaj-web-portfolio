@@ -25,18 +25,11 @@
       position: sticky;
       top: 0;
       background-image: url("../images/hero-bg-dark.jpg");
-      /* filter: grayscale(25%); */
       background-size: cover;
       background-position: 80%;
       background-attachment: fixed;
       z-index: 9999;
     }
-  
-
-    /* header:hover {
-        filter: grayscale(0%);
-      } */
-
 
     header h1 {
       font-weight: bold;
@@ -91,16 +84,8 @@
         filter: grayscale(0%);
       }
   
-    /* footer h2 {
-      color: var(--secondary-color);
-      font-size: 20px;
-      margin: 0;
-      width: 100%;
-    } */
-  
     footer div {
       line-height: 1;
-      /* text-align: right; */
       width: 100%;
       text-align: center;
       color: var(--secondary-color);
@@ -114,7 +99,6 @@
   
   section {
       padding: 60px;;
-      /* background-image: url("../images/Light-Website-Background.jpg"); */
     }
   
   .hero {
@@ -145,7 +129,7 @@
   
   .section-title {
       font-size: 48px;
-      color: var(--secondary-color);
+      color: var(--tertiary-color);
       border-bottom: 3px solid;
       padding-bottom: 20px;
       text-align: center;
@@ -157,24 +141,13 @@
       border-color: var(--primary-color);
     }
 
-  .seo {
+  .h2-name {
     color:var(--primary-color);
   }
     
   .secondary-border {
       border-color: var(--tertiary-color);
     }
-
-    /* .intro {
-      display:flex;
-    } */
-
-    /* .intro h2 { */
-      /* justify-content: left; */
-      /* margin: 0; */
-      /* text-align: left; */
-      /* width: 100%; */
-    /* } */
   
     .intro img {
       width: 60%;
@@ -203,7 +176,6 @@
     }
 
     
-  
   .skills {
       background: var(--primary-color);
       background-image: url("../images/Dark-Website-Background_02.jpg");
@@ -230,7 +202,7 @@
     }
     
     .skill-text p {
-      color: var(--tertiary-color);
+      color: var(--secondary-color);
       font-size: 18px;
     }
   
@@ -278,7 +250,6 @@
       min-height: 58%;
       justify-content:center;
       padding: 25px 25px;
-      /* filter: grayscale(100%); */
     }
     
     .card-container{
@@ -292,7 +263,7 @@
     }
     
     p {
-      color: var(--primary-color);
+      color: var(--secondary-color);
     }
     
     .card{
@@ -440,7 +411,6 @@
       align-items: flex-start;
       max-height: 45px;
       max-width: 45px;
-      /* margin: 5px */
   }
 
 
