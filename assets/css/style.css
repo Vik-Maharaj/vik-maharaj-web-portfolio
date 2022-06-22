@@ -176,6 +176,18 @@
       align-items:flex-end;
     }
 
+    .outro p {
+      margin: 0 auto;
+      line-height: 1.7;
+      color: var(--tertiary-color);
+      width: 80%;
+      font-size: 20px;
+      text-align: center;
+      align-items:flex-end;
+      font-weight: bold;
+      padding-bottom: 25px;
+    }
+
     
     .skills {
       background: var(--primary-color);
@@ -204,7 +216,8 @@
     
     .skill-text p {
       color: var(--secondary-color);
-      font-size: 18px;
+      font-size: 20px;
+      line-height: 30px;
     }
   
     .skill-text h4 {
@@ -311,11 +324,15 @@
       position: absolute;
       top: 0;
     }
+
+    .card-content p {
+      font-size: 20px;
+    }
     
     .card-description{
       color: rgba(255,255,255,0.6);
       font-size: 0.9rem;
-      margin-bottom: 15px;
+      margin-bottom: 14px;
       text-transform: uppercase;
     }
     
@@ -325,8 +342,25 @@
       text-shadow: 2px 2px 20px rgba(0,0,0,0.2);
       line-height: 1.4;
       word-spacing: 100vw;
+      padding-bottom: 10px;
     }
     
+    .card-content button {
+      width: 35%;
+      border: none;
+      background: var(--primary-color);
+      color: var(--tertiary-color);
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 15px;
+      font-size: 16px;
+      border-radius: 10px;
+    }
+
+    .card-content button:hover {
+      color: var(--primary-color);
+      background: var(--tertiary-color);
+    }
   
   .contact {
     background-image: url("../images/Dark-Website-Background_02.jpg");
@@ -389,7 +423,7 @@
     width: 100%;
     border: none;
     background: var(--primary-color);
-    color: var(--secondary-color);
+    color: var(--tertiary-color);
     text-align: center;
     padding: 15px 0;
     font-size: 16px;
